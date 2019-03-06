@@ -18,6 +18,7 @@
   <link href="css/styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   <link href="img/favicon.png" rel="icon">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
 
 </head>
 
@@ -37,39 +38,90 @@
   <!-- Page Content -->
     <div class="container">
       <div class="row">
-        <div class="center">
-          <img class="logo" src="img/colgworld.png" alt="colgworld logo">
-        </div>
-        <div class="center menu">
-          <div class="row">
-            <div class="col text-white">
-              <h4>
-                <a data-toggle="modal" data-target="#modalOne" href="#">1</a>
-              </h4>
+        <div class="col">
+          <div class="center">
+            <img class="logo" src="img/colgworld.png" alt="colgworld logo">
+          </div>
+          <div class="center menu">
+            <div class="row">
+              <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">Workspace</a>
+                </h6>
+              </div>
+              <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">Sticky Papers Co.</a>
+                </h6>
+              </div>
+              <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">E-Fabulous</a>
+                </h6>
+              </div>
+              <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">The Bong Depot</a>
+                </h6>
+              </div>
             </div>
-            <div class="col text-white">
-              <h4>
-                <a data-toggle="modal" data-target="#modalOne" href="#">2</a>
-              </h4>
-            </div>
-            <div class="col text-white">
-              <h4>
-                <a data-toggle="modal" data-target="#modalOne" href="#">3</a>
-              </h4>
-            </div>
-            <div class="col text-white">
-              <h4>
-                <a data-toggle="modal" data-target="#modalOne" href="#">4</a>
-              </h4>
+            <div class="row pt-3">
+              <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">Meech Bubbles</a>
+                </h6>
+              </div>
+              <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">Premiere Partition</a>
+                </h6>
+              </div>
+              <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">Pantry</a>
+                </h6>
+              </div>
+              <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">F#$K Raisins</a>
+                </h6>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </div>    
     </div>
 
   <footer class="footer">
     <div class="container">
-      <h6 class="text-white">Get in touch with me by clicking, <a href="mailto:hi@colgworld.com">here</a>.</h6>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-md-4">
+          <div class="row">
+            <div id="icons" class="col">
+              <a href="https://www.twitter.com/colgworld">
+                <i class="fa fa-twitter-square fa-lg"></i>
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://www.instagram.com/colgworld">
+                <i class="fa fa-instagram fa-lg"></i>
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://www.github.com/colgworld">
+                <i class="fa fa-github fa-lg"></i>
+              </a>
+            </div>
+            <div class="col">
+              <a href="mailto:hi@colgworld.com">
+                <i class="fa fa-envelope fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
     </div>
   </footer>
 
@@ -78,7 +130,7 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript">
     $('document').ready(function(){
-      $('#myModal').modal(options)
+      $('#myModal').modal('toggle')
     });
   </script>
 

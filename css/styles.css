@@ -25,11 +25,11 @@ body {
 	margin: auto;
 }
 .container {
-	margin-top: 22%;
+	margin-top: 15%;
 }
 
 .menu {
-	max-width: 50%;
+	max-width: 60%;
 	padding-top: 50px;
 	display: block;
 	margin: auto;
@@ -63,12 +63,20 @@ a {
   color: darkorange;
 }
 
+i {
+  color: white;
+}
+
+i:hover {
+  color: orange;
+}
+
 a:visited {
   color: orange;
 }
 
 a:hover {
-  color: yellow;
+  color: white;
 }
 
 a:active {
