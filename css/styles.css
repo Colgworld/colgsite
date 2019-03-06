@@ -1,0 +1,139 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background: 
+  	linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  	url('/img/nyc.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Bitter', serif;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+.logo {
+	max-width: 50%;
+	opacity: 0.8;
+	display: block;
+	margin: auto;
+}
+.container {
+	margin-top: 22%;
+}
+
+.menu {
+	max-width: 50%;
+	padding-top: 50px;
+	display: block;
+	margin: auto;
+}
+.footer {
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Modals */
+
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 80%;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+
+
+ /*Text Styles */
+
+a {
+  color: darkorange;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: orange;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 950px) {
+	.container {
+		margin-top: 65%;
+	}
+  .center {
+	  width: 100%;
+	  text-align: center;
+	}
+	.logo {
+			max-width: 50%;
+			opacity: 0.8;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+		margin-top: 65%;
+	}
+  .center {
+	  width: 100%;
+	  text-align: center;
+	}
+	.logo {
+			max-width: 80%;
+			opacity: 0.8;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .container {
+		margin-top: 45%;
+	}
+  .center {
+	  width: 100%;
+	  text-align: center;
+	}
+	.logo {
+			max-width: 80%;
+			opacity: 0.8;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.center {
+	  width: 100%;
+	  text-align: center;
+	}
+	.logo {
+		max-width: 50%;
+		opacity: 0.8;
+		display: block;
+		margin: auto;
+	}
+	.container {
+		margin-top: 12%;
+	}
+
+}
