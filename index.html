@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Michael Colgan's (@Colgworld) Portfolio Website - Designer and Web Developer based in the Greater NYC Area.">
+  <meta name="author" content="@Colgworld">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
  
   <title>@Colgworld | Portfolio</title>
@@ -17,6 +17,7 @@
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="img/favicon.png" rel="icon">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
 
@@ -24,12 +25,44 @@
 
 <body class="overlay">
     
-      <!-- Modal One -->
-      <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="modalOne" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+      <!-- Workspace Modal -->
+      <div class="modal fade" id="workspace" tabindex="-1" role="dialog" aria-labelledby="modalOne" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class=" close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
           <div class="modal-body">
-            ...
+            <img class="modalImg" src="/img/tws.png">
+          </div>
+          <div class="modal-footer">
+            <p>Workspace was an app that facilitated the transaction between homeowners and their contractors during a home remodel or renovation. Workspace was built with: React Native, GO, Docker/Kubernetes and ran entirely on Amazon Web Services. I built the UX for the MVP and helped develop the front end. I also built financial models for the startup, developed our go-to market strategy and managed the project from napkin to launch in 2018. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- About Me Modal -->
+      <div class="modal fade" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="modalOne" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class=" close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="modalImg" src="/img/colg.jpeg">
+          </div>
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col">
+                <h3>Hi, I'm Michael Colgan. 👋</h3>
+                <h6>I'm a Product Manager and Front End Developer based just outside of New York City. I've built a few startups, designed a few logos/websites and <strong>love</strong> helping the few bring their ideas to life. 💡</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -44,9 +77,14 @@
           </div>
           <div class="center menu">
             <div class="row">
+<!--               <div class="col text-white">
+                <h6>
+                  <a data-toggle="modal" data-target="#aboutMe" href="#">About Me</a>
+                </h6>
+              </div> -->
               <div class="col text-white">
                 <h6>
-                  <a data-toggle="modal" data-target="#modalOne" href="#">Workspace</a>
+                  <a data-toggle="modal" data-target="#workspace" href="#">Workspace</a>
                 </h6>
               </div>
               <div class="col text-white">
@@ -56,12 +94,7 @@
               </div>
               <div class="col text-white">
                 <h6>
-                  <a data-toggle="modal" data-target="#modalOne" href="#">E-Fabulous</a>
-                </h6>
-              </div>
-              <div class="col text-white">
-                <h6>
-                  <a data-toggle="modal" data-target="#modalOne" href="#">The Bong Depot</a>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">Belldocs</a>
                 </h6>
               </div>
             </div>
@@ -73,12 +106,12 @@
               </div>
               <div class="col text-white">
                 <h6>
-                  <a data-toggle="modal" data-target="#modalOne" href="#">Premiere Partition</a>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">Bear'd</a>
                 </h6>
               </div>
               <div class="col text-white">
                 <h6>
-                  <a data-toggle="modal" data-target="#modalOne" href="#">Pantry</a>
+                  <a data-toggle="modal" data-target="#modalOne" href="#">E-Fabulous</a>
                 </h6>
               </div>
               <div class="col text-white">
@@ -93,46 +126,40 @@
     </div>
 
   <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-md-4">
-          <div class="row">
-            <div id="icons" class="col">
-              <a href="https://www.twitter.com/colgworld">
-                <i class="fa fa-twitter-square fa-lg"></i>
-              </a>
-            </div>
-            <div class="col">
-              <a href="https://www.instagram.com/colgworld">
-                <i class="fa fa-instagram fa-lg"></i>
-              </a>
-            </div>
-            <div class="col">
-              <a href="https://www.github.com/colgworld">
-                <i class="fa fa-github fa-lg"></i>
-              </a>
-            </div>
-            <div class="col">
-              <a href="mailto:hi@colgworld.com">
-                <i class="fa fa-envelope fa-lg"></i>
-              </a>
-            </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-md-4">
+        <div class="row">
+          <div id="icons" class="col">
+            <a href="https://www.twitter.com/colgworld">
+              <i class="fa fa-twitter-square fa-lg"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.instagram.com/colgworld">
+              <i class="fa fa-instagram fa-lg"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.github.com/colgworld">
+              <i class="fa fa-github fa-lg"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="mailto:hi@colgworld.com">
+              <i class="fa fa-envelope fa-lg"></i>
+            </a>
           </div>
         </div>
-        <div class="col"></div>
       </div>
+      <div class="col"></div>
     </div>
   </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript">
-    $('document').ready(function(){
-      $('#myModal').modal('toggle')
-    });
-  </script>
+
 
 </body>
 
